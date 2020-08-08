@@ -1,5 +1,5 @@
-}
-  version": "2.0.0",
+ {
+version": "2.0.0",
   "description": "A node.js discord bot written to monitor the Clash of Clans API and announce war attacks to a discord channel.",
   "main": "index.js",
   "repository": {
