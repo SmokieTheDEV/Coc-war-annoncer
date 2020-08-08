@@ -1,7 +1,19 @@
- {
-version": "2.0.0",
+{
+  "name": "discord-coc-war-announcer",
+  "version": "2.0.0",
   "description": "A node.js discord bot written to monitor the Clash of Clans API and announce war attacks to a discord channel.",
   "main": "index.js",
+  }
+  scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "jquery": "*"
+  },
+  "engines": {
+    "node": "6.10.x"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spAnser/discord-coc-war-announcer.git"
@@ -13,16 +25,16 @@ version": "2.0.0",
   },
   "homepage": "https://github.com/spAnser/discord-coc-war-announcer",
   "dependencies": {
-    "async": "^2.3.0",
-    "bufferutil": "^3.0.0",
-    "chalk": "^1.1.3",
-    "discord.js": "^11.2.0",
+    "async": "^3.2.0",
+    "bufferutil": "^4.0.1",
+    "chalk": "^4.1.0",
+    "discord.js": "^12.2.0",
     "erlpack": "github:hammerandchisel/erlpack",
-    "find-remove": "^1.0.1",
-    "moment": "^2.18.1",
-    "node-persist": "^2.0.11",
+    "find-remove": "^2.0.1",
+    "moment": "^2.27.0",
+    "node-persist": "^3.1.0",
     "os-utils": "0.0.14",
-    "simple-get": "^2.6.0",
-    "uws": "^0.14.1"
+    "simple-get": "^4.0.0",
+    "uws": "^99.0.0"
   }
 }
