@@ -1,29 +1,27 @@
 {
-  "name": "discord-coc-war-announcer",
-  "version": "2.0.0",
-  "description": "A node.js discord bot written to monitor the Clash of Clans API and announce war attacks to a discord channel.",
-  "main": "index.js",
-  "repository": {
-    "start": "node server.js",
-    "url": "git+https://github.com/spAnser/discord-coc-war-announcer.git"
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "my-glitch-app",
+  "version": "0.0.1",
+  "description": "What am I about?",
+  "main": "server.js",
+  "scripts": {
+    "start": "sh ./etc/app-types/node/start.sh"
   },
-  "author": "spAnser",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/spAnser/discord-coc-war-announcer/issues"
-  },
-  "homepage": "https://github.com/spAnser/discord-coc-war-announcer",
   "dependencies": {
-    "async": "^2.3.0",
-    "bufferutil": "^3.0.0",
-    "chalk": "^1.1.3",
-    "discord.js": "^11.2.0",
-    "erlpack": "github:hammerandchisel/erlpack",
-    "find-remove": "^1.0.1",
-    "moment": "^2.18.1",
-    "node-persist": "^2.0.11",
-    "os-utils": "0.0.14",
-    "simple-get": "^2.6.0",
-    "uws": "^0.14.1"
-  }
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
